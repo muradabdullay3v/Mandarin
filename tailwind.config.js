@@ -1,18 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-  "./src/app/**/*.{ts,tsx,js,jsx}",
-  "./src/components/**/*.{ts,tsx,js,jsx}"
-],
+    "./app/**/*.{js,ts,jsx,tsx}",       // App Router
+    "./pages/**/*.{js,ts,jsx,tsx}",     // Pages Router
+    "./components/**/*.{js,ts,jsx,tsx}" // Components
+  ],
   theme: {
     extend: {
       colors: {
-        primary: "#6366F1",
-        secondary: "#10B981",
-        danger: "#EF4444",
-      },
-      spacing: {
-        18: "4.5rem",
+        brand: "#863202",  // simpler, no need for DEFAULT object
       },
     },
   },
