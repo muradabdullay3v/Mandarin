@@ -1,0 +1,1 @@
+export { OurAdvantages as default } from './OurAdvantages';
