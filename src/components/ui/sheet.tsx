@@ -4,7 +4,7 @@ import * as React from "react";
 import * as SheetPrimitive from "@radix-ui/react-dialog";
 import { XIcon } from "lucide-react";
 import { cva, type VariantProps } from "class-variance-authority";
-import { cn } from "@/src/app/lib/utils";
+import { cn } from "@/src/lib/utils";
 import { VisuallyHidden } from "./visually-hidden";
 
 const Sheet = SheetPrimitive.Root;
